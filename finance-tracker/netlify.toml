@@ -1,5 +1,5 @@
 [build]
-  base = "frontend"
+  base = "finance-tracker/frontend"
   command = "npm run build"
   publish = "dist"
 
