@@ -1,0 +1,32 @@
+.month-picker {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: 6px;
+}
+
+.month-picker-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+}
+
+.month-picker-btn:hover {
+  background: var(--surface-hover);
+  color: var(--text-primary);
+}
+
+.month-picker-label {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0 10px;
+  min-width: 128px;
+  text-align: center;
+}
