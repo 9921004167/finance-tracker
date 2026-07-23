@@ -1,0 +1,42 @@
+.report-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  max-width: 720px;
+}
+
+.report-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.report-card h3 {
+  font-size: 16px;
+}
+
+.report-card p {
+  font-size: 13px;
+  margin-bottom: 8px;
+  min-height: 54px;
+}
+
+.report-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.report-icon.pdf {
+  background: var(--coral-bg);
+  color: var(--coral);
+}
+
+.report-icon.csv {
+  background: var(--mint-bg);
+  color: var(--mint);
+}
